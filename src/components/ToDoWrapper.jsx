@@ -25,12 +25,7 @@ const ToDoWrapper = () => {
             content: "Fetch data from a public API (e.g., a weather or news API) and display it on a web page. Handle API errors and loading states.",
             created_at: "2024-03-10T11:15:00Z"
         },
-        {
-            id: 4,
-            title: "Optimize Website Performance",
-            content: "Analyze and optimize the performance of a web page. Implement basic performance improvements such as image optimization and code splitting.",
-            created_at: "2024-04-25T14:45:00Z"
-        }
+        
     ]);
     const [searchQuery, setSearchQuery] = useState('');
     const [taskToEdit, setTaskToEdit] = useState(null);
